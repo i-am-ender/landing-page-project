@@ -1,0 +1,1 @@
+GhostOfStarman later clarified that summer ants are infinitely more important than phantoms are, you can see that message in [here](https://discord.com/channels/283452033225326592/283455558902743041/1445952114030542970)
