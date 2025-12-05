@@ -121,3 +121,27 @@ li a {
     color: var(--information-header-color);
     max-width: 250px;
 }
+
+#quote-section {
+    background-color: var(--quote-section-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-content {
+    max-width: 60rem;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-content p {
+    font-size: 36px;
+    font-weight: 300;
+    color: var(--quote-text-color);
+}
+
+.author {
+    align-self: flex-end;
+}
