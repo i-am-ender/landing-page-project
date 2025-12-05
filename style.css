@@ -27,15 +27,16 @@ header, section, footer {
     padding: 0 12rem;
 }
 
-header {
+header, #introduction, footer {
     background-color: var(--dark-background-color);
+}
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 12rem;
 }
-
-
 
 header ul {
     list-style: none;
@@ -47,3 +48,33 @@ li a {
     color: var(--hero-secondary-text-color);
     text-decoration: none;
 }
+
+#introduction {
+    padding: 6rem 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--hero-main-text-color);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-content p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: var(--hero-secondary-text-color);
+}
+
+.hero-content {
+    flex-basis: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
