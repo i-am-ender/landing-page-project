@@ -1,4 +1,4 @@
-root {
+:root {
     --dark-background-color: #1F2937;
     --hero-main-text-color: #F9FAF8;
     --hero-secondary-text-color: #E5E7EB;
@@ -10,6 +10,9 @@ root {
 
 body {
     font-family: Roboto, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 .button {
@@ -20,3 +23,27 @@ body {
     color: white;
 }
 
+header, section, footer {
+    padding: 0 12rem;
+}
+
+header {
+    background-color: var(--dark-background-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 12rem;
+}
+
+
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+li a {
+    color: var(--hero-secondary-text-color);
+    text-decoration: none;
+}
