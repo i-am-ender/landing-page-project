@@ -78,3 +78,46 @@ li a {
     justify-content: center;
 }
 
+#mob-vote-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 12rem;
+}
+
+#mob-vote-info a {
+    text-decoration: none;
+}
+
+#mob-vote-info h2 {
+    font-size: 36px;
+    color: var(--information-header-color);
+    font-weight: 900;
+    margin: 6rem 0;
+}
+
+.vote-options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.mob-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mob-option img {
+    border: solid 0.25rem #3882F6;
+    border-radius: 16px;
+}
+
+.mob-option p {
+    font-size: 18px;
+    color: var(--information-header-color);
+    max-width: 250px;
+}
